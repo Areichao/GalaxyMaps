@@ -4,12 +4,13 @@ import saturn from "./images/saturn.png";
 
 
 class Homepage extends React.Component{
-    return (
-        <div className="galaxy-space">
+    
+    renderPlanets() {
+        return (
             <img src={saturn} alt="saturn image" />
-        </div>
-   
-    );
+       
+        );
+    }
 }
 
 export default Homepage
