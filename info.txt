@@ -1,0 +1,4 @@
+outline colours (honey yellow) -> FFC23C
+background dark (navy blue) -> 06113C
+location pick (bright orange?) -> FF5F00
+text colour (light grey) -> DDDDDD or EEEEEE
