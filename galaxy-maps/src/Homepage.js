@@ -7,7 +7,7 @@ const Homepage = (props) => {
 
     return (
       <div>
-        <img src={saturn} alt='saturn image' />
+        <img class="saturn" src={saturn} alt='saturn image' />
         <img class='alien' src={alien} alt='alien in a spaceship image' />
       </div>
     );
