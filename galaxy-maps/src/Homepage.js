@@ -2,15 +2,13 @@ import React from "react"
 import "./Homepage.css"
 import saturn from "./images/saturn.png";
 
+const Homepage = (props) => {
 
-class Homepage extends React.Component{
-    
-    renderPlanets() {
-        return (
-            <img src={saturn} alt="saturn image" />
-       
-        );
-    }
-}
+    return (
+      <div>
+        <img src={saturn} alt='saturn image' />
+      </div>
+    );
+};
 
 export default Homepage
